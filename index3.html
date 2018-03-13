@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script type="text/javascript">
+
+		var stroka = "aaa@bbb@ccc";
+		var sign = "!";
+		
+		function changeSign (stroka, sign) {
+		var reg = /@/g;
+		var rezultat = stroka.replace(reg, sign);
+		document.write(rezultat);
+        }
+    changeSign (stroka, sign);
+
+	</script>
+</body>
+</html>

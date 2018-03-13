@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script type="text/javascript">
+
+		var stroka = "Цей веб-сайт використовує файли cookie, щоб краще вас обслуговувати. Якщо ви продовжуєте перегляд веб-сайту Wizz Air без зміни налаштувань cookie, ми вважатимемо, що ви згодні отримувати всі файли cookies на веб-сайті Wizz Air. Налаштування cookie можна змінити в будь-який час. Докладніше див. у нашій";
+		var n = 25;
+
+		function part(a, b) {
+			if (a.length > b) {
+				return a.slice(0, b) + "...";
+			}
+			return a;
+		}
+		var rezult = part(stroka, n);
+		document.write(rezult);
+		
+	</script>
+	
+</body>
+</html>
